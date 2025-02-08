@@ -23,7 +23,7 @@ const ProjectsDetails = () => {
         } else if (category === "dressing-rooms") {
           projectData = await import("../../assets/data/DressingRooms");
         } else if (category === "windows") {
-          projectData = await import("../../assets/data/windows");
+          projectData = await import("../../assets/data/Windows");
         }
 
         setProjects(projectData.default);
