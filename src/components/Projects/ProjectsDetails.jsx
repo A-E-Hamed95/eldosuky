@@ -13,7 +13,6 @@ import styles from "./ProjectsDetails.module.css";
 const ProjectsDetails = () => {
   const { category } = useParams();
   const [projects, setProjects] = useState([]);
-
   useEffect(() => {
     const loadProjects = async () => {
       try {
