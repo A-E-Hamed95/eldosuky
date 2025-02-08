@@ -1,0 +1,22 @@
+.navbar {
+  display: flex !important;
+  width: 70% !important;
+  padding: 1rem;
+}
+
+.navbar_content {
+  width: 100% !important;
+}
+
+.navbar_links{
+    justify-content: end;
+    gap: 80px;
+}
+
+.logo_container {
+  width: 20% !important;
+}
+
+.list_container {
+  width: 80% !important;
+}

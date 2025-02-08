@@ -1,0 +1,79 @@
+/* Container */
+.container {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Heading */
+.heading {
+  font-weight: bold;
+  color: #232f63;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+/* Cards in Column Layout */
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+/* Individual Review Card */
+.card {
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 16px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Header (Avatar + Name) */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+/* Avatar */
+.avatar {
+  background-color: #232f63;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+
+/* Name */
+.name {
+  font-weight: bold;
+  color: #232f63;
+}
+
+/* Review Text */
+.text {
+  color: #555;
+  font-style: italic;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* Date */
+.date {
+  display: block;
+  text-align: right;
+  color: #777;
+  font-size: 12px;
+  margin-top: 8px;
+}

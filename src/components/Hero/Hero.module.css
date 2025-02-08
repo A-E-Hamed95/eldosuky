@@ -1,0 +1,28 @@
+.heroText {
+  font-weight: bold;
+  color: white;
+  font-size: 2rem;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%); /* Start from 100% below the final position */
+    opacity: 0; /* Invisible at the start */
+  }
+  100% {
+    transform: translateY(0); /* End at its normal position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+.slide-animate {
+  opacity: 0; /* Initially invisible */
+  transform: translateY(100%); /* Start below the final position */
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Smooth transition */
+}
+
+.slide-in {
+  opacity: 1; /* Make visible */
+  transform: translateY(0); /* Slide to final position */
+  animation: slideUp 0.5s ease-out forwards; /* Trigger animation */
+}
